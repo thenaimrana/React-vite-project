@@ -1,12 +1,18 @@
+import ContactForm from "./assets/component/ContactForm";
+import Footer from "./assets/component/Footer";
+import Header from "./assets/component/Header";
+import Hero from "./assets/component/Hero";
 
-function App() {
 
+const App = () => {
   return (
-    <>
-    <h1>React App</h1>
-    </>
-  )
-}
+    <div>
+      <Header/>
+      <Hero/>
+      <ContactForm/>
+      <Footer/>
+    </div>
+  );
+};
 
-export default App
- 
+export default App;
