@@ -2,18 +2,27 @@
 
 const SwitchCondition = () => {
 
-const status = false;
-
-switch(status){
+// const status = true;
+// switch(status){
     
-    case true:
-        return <button>You are True</button>
-    case false:
-        return <button>You are False</button>
-    default:
-        return null
-}
+//     case true:
+//         return <button>You are True</button>
+//     case false:
+//         return <button>You are False</button>
+//     default:
+//         return null
+// }
 
+
+const status = false;
+switch(status){
+    case true:
+        return "Yes"
+    case false:
+        return "No"
+    default:
+        return null;
+}
 
 };
 
