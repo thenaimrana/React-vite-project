@@ -9,6 +9,10 @@ import Logicalandand from "./assets/component/Logicalandand";
 import SwitchCondition from "./assets/component/SwitchCondition";
 import TernaryCondition from "./assets/component/TernaryCondition";
 import Props from './assets/component/Props'
+import ClickEvent from "./assets/component/ClickEvent";
+import FormSumit from "./assets/component/FormSumit";
+import UseState from "./assets/component/UseState";
+
 
 
 
@@ -29,32 +33,36 @@ const App = () => {
   return (
     <div>
 
-      {/* <Header/> */}
-      {/* <Hero /> */}
-      {/* <ContactForm/> */}
-      {/* <Footer/> */}
-      {/* <JsxLoop/> */}
-      {/* <ConditionIFElse/> */}
-      {/* <br /> */}
-      {/* <h1>Switch Conditional</h1>
-      <SwitchCondition/> */}
-      {/* <TernaryCondition/> */}
-      {/* <Logicalandand/> */}
-      {/* <IIF/> */}
+      <Header/>
+      <Hero title="My Name is Naim" des="I live in Jamalpur" />
+      <ContactForm/>
+      <Footer/>
+      <JsxLoop/>
+      <ConditionIFElse/>
+      <br />
+      <h1>Switch Conditional</h1>
+      <SwitchCondition/>
+      <TernaryCondition/>
+      <Logicalandand/>
+      <IIF/>
 
       <Props item={ItemObj} />
-      
+      <ClickEvent/>
+      <FormSumit/>
+      <UseState/>
 
 
 
 
-    {/* <br/><br/>
-      <button onClick={()=>alert("hello")}>Submit</button>
+
+    <br/><br/>
+
+  
 
       <h1 style={{color:"red"}}>Hello world</h1>
 
-      {number==50?<h1>Yor are Right</h1>:<h1>Your are Rong</h1>}
-      {number!==50?<h1>Yor are Right</h1>:<h1>Your are Rong</h1>}  */}
+      {number==50?<h2>Yor are Right</h2>:<h2>Your are Rong</h2>}
+      {number!==50?<h2>Yor are Right</h2>:<h2>Your are Rong</h2>} 
 
 
 
